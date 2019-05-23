@@ -1,0 +1,22 @@
+{
+  "name": "bitfaced-bc",
+  "version": "1.0.0",
+  "description": "This is the readme for my bitfaced website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtglazex/Bitfaced-bc.git"
+  },
+  "author": "RunTRG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtglazex/Bitfaced-bc/issues"
+  },
+  "homepage": "https://github.com/xtglazex/Bitfaced-bc#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
