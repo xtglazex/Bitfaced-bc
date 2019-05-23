@@ -1,0 +1,21 @@
+.bannerimg1 {
+    background-image: url("Bitfaced 2.png"),url("bfbanner.PNG");
+    background-repeat: no-repeat;
+    background-position: center, left;
+    height: 100px; 
+}
+.navbutton {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.carouselstuff{
+    position: relative;
+
+}
+
+.episodeplayer{
+    position: absolute;
+    bottom: 0;
+
+}
