@@ -6,17 +6,27 @@
     height: 100px; 
 }
 .navbutton {
-    margin-top: 30px;
+    margin-top: 30px;   
     margin-left: 15px;
 }
 
-.carouselstuff{
-    position: relative;
-
-}
-
-.episodeplayer{
-    position:fixed;    
+.episodeplayer {
+    background:none transparent;
+    position: absolute;    
     bottom:0;
-    width: 100%          
+    width: 100%
+          
 }
+
+
+.backgroundfiller { 
+    background-image : url("Bitfaced logo - test.png"),linear-gradient(to top,rgba(11, 163, 96, 1), rgba(60, 186, 146, 1));
+    z-index: -2;
+    background-size:73%,auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 80%;
+    filter: blur(0px),blur(8px);
+    -webkit-filter: blur(0px),blur(8px);
+}
+
