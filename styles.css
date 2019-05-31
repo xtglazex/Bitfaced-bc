@@ -5,25 +5,47 @@
     background-position: center, left;
     height: 100px; 
 }
+
+.bannerimgcollapse {
+    background-image: url("bfbanner.PNG");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100px; 
+}
+
 .navbutton {
     margin-top: 30px;   
     margin-left: 15px;
 }
 
 .backgroundfiller { 
-    background-image : url("Bitfaced logo - test.png"),linear-gradient(to top,rgba(11, 163, 96, 1), rgba(60, 186, 146, 1));
+    background-image: linear-gradient(to top,rgba(11, 163, 96, 1), rgba(60, 186, 146, 1));
     /*linear gradient set to rgba for attempt at transparency/blur behind logo*/
-    background-size:73%,auto;
-    background-position: top center;
+    background-size:Auto;
+    background-position:center;
     background-repeat: no-repeat;
     height: 80%;
     filter: blur(0px),blur(8px);
     -webkit-filter: blur(0px),blur(8px);
 }
 
+.newlogo {
+
+height: 50%;
+width: 50%;
+object-position: center;
+
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .episodeplayer {
     background:none transparent;
-    position: absolute;    
+    position: fixed;    
     bottom:0;
     width: 100%
           

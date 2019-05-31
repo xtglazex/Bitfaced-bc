@@ -5,8 +5,7 @@
         <link rel="icon" href="bitfaced_logo_4ZL_icon.ico">
         <link rel="stylesheet" type="text/css" media="screen" href="node_modules\bootstrap\dist\css\bootstrap.css">
         <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
-        <script src="node_modules\bootstrap\js\dist\carousel.js"></script>
-        <script src="node_modules\bootstrap\js\src\carousel.js"></script>
+        <script src="node_modules\jquery\dist\jquery.min.js"></script>
         <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
     </head>
 
@@ -14,7 +13,7 @@
             
             <div class="pos-f-t">
                 <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="bg-dark p-4">
+                  <div class="bannerimgcollapse bg-dark p-4">
                     <h5 class="text-white h4">Text</h5>
                     <span class="text-muted">Text</span>
                   </div>
@@ -28,11 +27,25 @@
                 </nav>
         <!--This is the code for the header-->
                 
-            <div class= "backgroundfiller"></div>
+            <div class= "backgroundfiller">
+                    <img class= "newlogo center" src ="Bitfaced logo - test.png"> 
+                <div class="container">
+                    <div class="row">
+                      <div class="col"></div>
+                      <div class="col">col</div>
+                      <div class="col">col</div>
+                      <div class="col">col</div>
+                    </div>
+                  </div>
+            </div>
         <!--background content-->
+
+        
+
+          <!--flexbox grid for episode list?-->
         
             <div class= "containter episodeplayer">
-                <div id="carouselExampleControls" class="episodeplayer carousel slide" data-ride="carousel">
+                <div id="carouselExampleControls" class="episodeplayer carousel slide" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
                         <iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups"  scrolling=no width="100%" height="185" frameborder="0" src="https://embed.radiopublic.com/e?if=bitfaced-WJpnn2&ge=s1!eeec865357824d6277697e50c798162e12e92592"></iframe>
