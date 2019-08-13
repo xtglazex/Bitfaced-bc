@@ -17,8 +17,13 @@
   },
   "homepage": "https://github.com/xtglazex/Bitfaced-bc#readme",
   "dependencies": {
+    "appium": "^1.14.1",
     "bootstrap": "^4.3.1",
+    "core-js": "^3.2.0",
     "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "regenerator-runtime": "^0.13.3",
+    "selenium-webdriver": "^4.0.0-alpha.3",
+    "testcafe": "^1.4.0"
   }
 }
